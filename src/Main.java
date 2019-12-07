@@ -17,12 +17,12 @@ final class Main {
             String pytanieOdp = pytanie.nextLine();
             if(!pytanieOdp.equals("Gdziekolwiek")){
                 break;
-            }
-            System.out.println("To zbierajmy tylek? TAK/NIE");
-            Scanner pytanie2 = new Scanner(System.in);
-            String pytanieOdp2 = pytanie2.nextLine();
-            if(pytanieOdp2.equals("Tak")) {
-                break;
+//            }
+//            System.out.println("To zbierajmy tylek? TAK/NIE");
+//            Scanner pytanie2 = new Scanner(System.in);
+//            String pytanieOdp2 = pytanie2.nextLine();
+//            if(pytanieOdp2.equals("Tak")) {
+//                break;
             }
         }
         System.out.println("Powodzenia!");
