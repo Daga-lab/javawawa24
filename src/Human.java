@@ -19,6 +19,14 @@ public class Human {
     private String name;
     private boolean isMale;
 
+    public void Human(String name, int age, int weight, int height, boolean isMale){
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.height = height;
+        this.isMale = isMale;
+    }
+
     public int getAge() {
         Objects.requireNonNull(age);
         return age;
@@ -52,4 +60,5 @@ public class Human {
                 "(height)" + height +
                 "(sex)" + isMale;
     }
+
 }
