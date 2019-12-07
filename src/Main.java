@@ -9,7 +9,9 @@ final class Main {
     public static void main(String[] args) {
         System.out.println("WITAJCIE");
         System.out.println("nie");
-
+        while (true) {
+            System.out.println("Gdzie idziemy jesć");
+        }
 
     }
 }
