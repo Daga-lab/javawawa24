@@ -6,25 +6,21 @@ import java.util.Scanner;
  * @author dagmarakitkowska@gmail.com
  * @since 07.12.2019
  */
-final class Main {
+public final class Main {
 
-    public static void main(String[] args) {
-        System.out.println("WITAJCIE");
-           while (true) {
-            System.out.println("Gdzie idziemy jesć");
-            Scanner pytanie = new Scanner(System.in);
-            System.out.println("Podaj nazwę miejsca");
-            String pytanieOdp = pytanie.nextLine();
-            if(!pytanieOdp.equals("Gdziekolwiek")){
-                break;
-            }
-            System.out.println("To zbierajmy tylek? TAK/NIE");
-            Scanner pytanie2 = new Scanner(System.in);
-            String pytanieOdp2 = pytanie2.nextLine();
-            if(pytanieOdp2.equals("Tak")) {
-                break;
-            }
-        }
-        System.out.println("Powodzenia!");
+    public static void pierwszeLiteryAlfabetu (){
+        String [] alphabet = new String [10];
+        alphabet[0] = "A";
+        alphabet[1] = "B";
+        alphabet[2] = "C";
+        alphabet[3] = "D";
+        alphabet[4] = "E";
+        alphabet[5] = "F";
+
     }
+
+    public static void wyswietlImie () {
+        System.out.println("Piotr");
+    }
+
 }
