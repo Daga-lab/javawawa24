@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * ...comment class...
  *
@@ -11,6 +13,13 @@ final class Main {
         System.out.println("nie");
         while (true) {
             System.out.println("Gdzie idziemy jesć");
+            Scanner pytanie = new Scanner(System.in);
+            System.out.println("Podaj nazwę miejsca");
+            String pytanieOdp = pytanie.nextLine();
+            if(pytanieOdp.equals("Gdziekolwiek")){
+                break;
+            }
+
         }
 
     }
