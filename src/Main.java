@@ -21,6 +21,7 @@ public final class Main {
 
     }
 
+
     public static void pierwszeLiteryAlfabetu (){
         String [] alphabet = new String [10];
         alphabet[0] = "A";
