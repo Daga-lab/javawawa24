@@ -16,7 +16,7 @@ final class Main {
             Scanner pytanie = new Scanner(System.in);
             System.out.println("Podaj nazwę miejsca");
             String pytanieOdp = pytanie.nextLine();
-            if(pytanieOdp.equals("Gdziekolwiek")){
+            if(!pytanieOdp.equals("Gdziekolwiek")){
                 break;
             }
             System.out.println("To zbierajmy tylek? TAK/NIE");
