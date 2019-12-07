@@ -20,16 +20,19 @@ public final class Prostokat{
 
 
 
-    public void Pole() {
+    public float Pole() {
                 float pole = dlugosc * szerokosc;
+                return pole;
     }
 
-   public void Obwod(){
+   public float Obwod(){
         float obwod = 2*dlugosc + 2*szerokosc;
+        return obwod;
     }
 
-    public void DlugoscPrzekatnej(){
+    public float DlugoscPrzekatnej(){
        double dlugoscPrzekatnej = Math.sqrt((dlugosc*dlugosc)+(szerokosc*szerokosc)) ;
+       return dlugosc;
     }
 
 
