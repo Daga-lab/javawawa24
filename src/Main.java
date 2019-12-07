@@ -10,5 +10,6 @@ final class Main {
         System.out.println("WITAJCIE");
         System.out.println("nie");
 
+
     }
 }
