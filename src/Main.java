@@ -35,8 +35,6 @@ public final class Main {
 
     public static void wyswietlImie () {
         System.out.println("Piotr");
-
-
     }
 
 
