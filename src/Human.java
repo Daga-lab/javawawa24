@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 /**
  * Represents human.
  *
@@ -18,18 +20,22 @@ public class Human {
     private boolean isMale;
 
     public int getAge() {
+        Objects.requireNonNull(age);
         return age;
     }
 
     public int getWeight() {
+        Objects.requireNonNull(weight);
         return weight;
     }
 
     public int getHeight() {
+        Objects.requireNonNull(height);
         return height;
     }
 
     public String getName() {
+        Objects.requireNonNull(name);
         return name;
     }
 
