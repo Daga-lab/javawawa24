@@ -10,10 +10,6 @@
 public final class Main {
 
     public static void main(String[] args) {
-
-        Human human = new Human();
-        human.toString();
-
     }
 
     public static void pierwszeLiteryAlfabetu (){
