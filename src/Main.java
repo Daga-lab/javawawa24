@@ -25,8 +25,7 @@ final class Main {
             if(pytanieOdp2.equals("Tak")) {
                 break;
             }
-
         }
-
+        System.out.println("Powodzenia!");
     }
 }
