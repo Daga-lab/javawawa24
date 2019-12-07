@@ -10,8 +10,7 @@ final class Main {
 
     public static void main(String[] args) {
         System.out.println("WITAJCIE");
-        System.out.println("nie");
-        while (true) {
+           while (true) {
             System.out.println("Gdzie idziemy jesć");
             Scanner pytanie = new Scanner(System.in);
             System.out.println("Podaj nazwę miejsca");
