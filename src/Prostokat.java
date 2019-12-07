@@ -8,8 +8,8 @@ import java.util.function.Predicate;
  * @since 07.12.2019
  */
 public final class Prostokat{
-    private int dlugosc;
-    private int szerokosc;
+    private float dlugosc;
+    private float szerokosc;
 
     public Prostokat(int dlugosc, int szerokosc) {
         Objects.requireNonNull(dlugosc);
@@ -18,32 +18,14 @@ public final class Prostokat{
         this.szerokosc = szerokosc;
     }
 
-    public int getDlugosc() {
-        return dlugosc;
-    }
-
-    public void setDlugosc(int dlugosc) {
-        this.dlugosc = dlugosc;
-    }
-
-    public int getSzerokosc() {
-        return szerokosc;
-    }
-
-    public void setSzerokosc(int szerokosc) {
-        this.szerokosc = szerokosc;
-    }
-
-
-
 
 
     public void Pole() {
-                int pole = dlugosc * szerokosc;
+                float pole = dlugosc * szerokosc;
     }
 
    public void Obwod(){
-        int obwod = 2*dlugosc + 2*szerokosc;
+        float obwod = 2*dlugosc + 2*szerokosc;
     }
 
     public void DlugoscPrzekatnej(){
