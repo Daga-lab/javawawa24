@@ -20,6 +20,7 @@ public final class Main {
         wyswietlImie();
 
         pierwszeLiteryAlfabetu();
+        System.out.println("Blednie");
     }
 
     public static void pierwszeLiteryAlfabetu() {
