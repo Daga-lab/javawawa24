@@ -21,6 +21,7 @@ public final class Main {
 
         pierwszeLiteryAlfabetu();
         System.out.println("Blednie");
+        System.out.println("test");
     }
 
     public static void pierwszeLiteryAlfabetu() {
