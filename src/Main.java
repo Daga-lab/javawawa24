@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 /**
  * ...comment class...
@@ -6,6 +5,7 @@ import java.util.Scanner;
  * @author dagmarakitkowska@gmail.com
  * @since 07.12.2019
  */
+
 public final class Main {
 
     public static void pierwszeLiteryAlfabetu (){
