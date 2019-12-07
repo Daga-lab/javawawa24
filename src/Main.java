@@ -23,7 +23,7 @@ final class Main {
 //            String pytanieOdp2 = pytanie2.nextLine();
 //            if(pytanieOdp2.equals("Tak")) {
 //                break;
-//            }
+            }
         }
         System.out.println("Powodzenia!");
     }
