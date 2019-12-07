@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 
 /**
  * ...comment class...
@@ -10,6 +11,14 @@
 public final class Main {
 
     public static void main(String[] args) {
+        Prostokat prostokat = new Prostokat(10, 5);
+        prostokat.Pole();
+        System.out.println("Pole Prostokąta " + prostokat.Pole());
+        prostokat.Obwod();
+        System.out.println("Obwod Prostokata " + prostokat.Obwod());
+        prostokat.DlugoscPrzekatnej();
+        System.out.println("Dlugosc przekatnej prostokata " + prostokat.DlugoscPrzekatnej());
+
     }
 
     public static void pierwszeLiteryAlfabetu (){
