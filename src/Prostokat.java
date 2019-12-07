@@ -30,9 +30,9 @@ public final class Prostokat{
         return obwod;
     }
 
-    public float DlugoscPrzekatnej(){
+    public double DlugoscPrzekatnej(){
        double dlugoscPrzekatnej = Math.sqrt((dlugosc*dlugosc)+(szerokosc*szerokosc)) ;
-       return dlugosc;
+       return dlugoscPrzekatnej;
     }
 
 
