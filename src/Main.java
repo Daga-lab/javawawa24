@@ -5,5 +5,22 @@
  * @author dagmarakitkowska@gmail.com
  * @since 07.12.2019
  */
-final class Main {
+
+public final class Main {
+
+    public static void pierwszeLiteryAlfabetu (){
+        String [] alphabet = new String [10];
+        alphabet[0] = "A";
+        alphabet[1] = "B";
+        alphabet[2] = "C";
+        alphabet[3] = "D";
+        alphabet[4] = "E";
+        alphabet[5] = "F";
+
+    }
+
+    public static void wyswietlImie () {
+        System.out.println("Piotr");
+    }
+
 }
